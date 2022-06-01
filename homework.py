@@ -12,7 +12,7 @@ class InfoMessage:
     calories: float
 
     def get_message(self) -> str:
-
+        """Генерация сообщения."""
         info = (
             f"Тип тренировки: {self.training_type}; "
             f"Длительность: {round(self.duration,3):.3f} ч.; "
